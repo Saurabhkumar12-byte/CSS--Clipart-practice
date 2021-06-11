@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(147, 152, 155);
+    display: grid;
+    place-items: center;
+}
+img{
+    max-width: 400px;
+    height: 400px;
+    box-shadow: rgba(rgb(41, 40, 40), rgb(26, 27, 26), rgb(41, 41, 44), alpha);
+    clip-path: polygon( 50% 0%, 0% 100% , 100% 100%);
+    border: none;
+    overflow: hidden;
+    outline: none;
+    transition: 0.3s linear ease 1s;
+}
+img:hover{
+    max-width: 400px;
+    height: 400px;
+    box-shadow: rgba(rgb(41, 40, 40), rgb(26, 27, 26), rgb(41, 41, 44), alpha);
+    clip-path: polygon( 0% 0%, 0% 100% , 0% 100% ,100% 0%);
+    border: none;
+    overflow: hidden;
+    outline: none;
+}
